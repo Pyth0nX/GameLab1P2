@@ -4,17 +4,6 @@ using UnityEngine;
 
 public class HammerAction : MonoBehaviour
 {
-
-    public void Start()
-    {
-
-    }
-
-    public void Update()
-    {
-
-    }
-
     public void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Enemy")

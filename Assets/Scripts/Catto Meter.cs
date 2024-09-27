@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class cattoMeter : MonoBehaviour
+public class CattoMeter : MonoBehaviour
 {
     public Slider powerUpSlider; // Reference to the UI Slider
     public float maxPower = 100f; // Maximum value of the power-up bar
