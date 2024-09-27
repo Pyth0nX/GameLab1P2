@@ -4,10 +4,10 @@ using System.Collections.Generic;
 using UnityEngine;
 //truusing static UnityEditor.Progress;
 
-public class collectionInput : MonoBehaviour
+public class CollectionInput : MonoBehaviour
 {
-    [SerializeField] cattoMeter cattoMeter;
-    [SerializeField] enemyScript enemyScript;
+    [SerializeField] CattoMeter cattoMeter;
+    [SerializeField] EnemyScript enemyScript;
     // Start is called before the first frame update
     void Start()
     {

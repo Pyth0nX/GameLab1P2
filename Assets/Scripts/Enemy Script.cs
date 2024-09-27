@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class enemyScript : MonoBehaviour
+public class EnemyScript : MonoBehaviour
 {
-    [SerializeField] cattoMeter cattoMeter;
-    [SerializeField] collectionInput collectionInput;
+    [SerializeField] CattoMeter cattoMeter;
+    [SerializeField] CollectionInput collectionInput;
     public GameObject pointsMeter;
     // Start is called before the first frame update
 
@@ -25,7 +25,7 @@ public class enemyScript : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            pointsMeter.GetComponent<collectionInput>().LoseFish();
+            pointsMeter.GetComponent<CollectionInput>().LoseFish();
 
         }
         if (collision.gameObject.tag == "Enemy")
