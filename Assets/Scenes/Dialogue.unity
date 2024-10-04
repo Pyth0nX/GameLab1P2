@@ -198,8 +198,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Hello there! My name is Milton. \r\nI need to get home to my owner, and
     i found this cool car! Can you help me get home? Awesome! There should be some
-    fishes on the way to help us fuel the car, but we have to watch out for the mice!\nBeside
-    me you can choose a level!"
+    fishes on the way to help us fuel the car, but we have to watch out for the mice!\nPress
+    next to choose a level!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
