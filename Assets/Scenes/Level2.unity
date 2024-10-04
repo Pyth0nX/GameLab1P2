@@ -917,6 +917,7 @@ SpriteRenderer:
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
+<<<<<<< Updated upstream:Assets/Scenes/Level2.unity
   m_Modification:
     serializedVersion: 3
     m_TransformParent: {fileID: 168387197}
@@ -971,6 +972,51 @@ PrefabInstance:
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 93b66039a0682d64bb57a2ea19c02027, type: 3}
 --- !u!4 &187781246 stripped
+=======
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_Iso: 200
+  m_ShutterSpeed: 0.005
+  m_Aperture: 16
+  m_FocusDistance: 10
+  m_FocalLength: 50
+  m_BladeCount: 5
+  m_Curvature: {x: 2, y: 11}
+  m_BarrelClipping: 0.25
+  m_Anamorphism: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.1
+  far clip plane: 5000
+  field of view: 60
+  orthographic: 1
+  orthographic size: 24
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 0
+  m_HDR: 1
+  m_AllowMSAA: 0
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 0
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &297734424
+>>>>>>> Stashed changes:Assets/Scenes/Level2 Testing.unity
 Transform:
   m_CorrespondingSourceObject: {fileID: 8235712252738830333, guid: 93b66039a0682d64bb57a2ea19c02027, type: 3}
   m_PrefabInstance: {fileID: 187781245}
@@ -1090,7 +1136,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8249393808451027415, guid: ada8c39de0b74474eb6a2c738a4b10fe, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1115557974}
   m_SourcePrefab: {fileID: 100100000, guid: ada8c39de0b74474eb6a2c738a4b10fe, type: 3}
 --- !u!1001 &244130884
 PrefabInstance:
@@ -1100,6 +1149,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 803933059}
     m_Modifications:
+    - target: {fileID: 2476159816989112604, guid: 067afa3840bfb174d81c96f0358c53b1, type: 3}
+      propertyPath: pointsMeter
+      value: 
+      objectReference: {fileID: 1115557972}
     - target: {fileID: 2476159816989112604, guid: 067afa3840bfb174d81c96f0358c53b1, type: 3}
       propertyPath: collectionInput
       value: 
@@ -1168,12 +1221,42 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7310301686434399431, guid: ada8c39de0b74474eb6a2c738a4b10fe, type: 3}
   m_PrefabInstance: {fileID: 213970441}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1115557972}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f9b093ac082e7fb429df92df8853f5d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream:Assets/Scenes/Level2.unity
+=======
+  m_ExcludedPropertiesInInspector:
+  - m_Script
+  m_LockStageInInspector: 
+  m_StreamingVersion: 20170927
+  m_Priority: 10
+  m_StandbyUpdate: 2
+  m_LookAt: {fileID: 900852238}
+  m_Follow: {fileID: 900852238}
+  m_Lens:
+    FieldOfView: 40
+    OrthographicSize: 10
+    NearClipPlane: 0.1
+    FarClipPlane: 5000
+    Dutch: 0
+    ModeOverride: 0
+    LensShift: {x: 0, y: 0}
+    GateFit: 2
+    FocusDistance: 10
+    m_SensorSize: {x: 1, y: 1}
+  m_Transitions:
+    m_BlendHint: 0
+    m_InheritPosition: 0
+    m_OnCameraLive:
+      m_PersistentCalls:
+        m_Calls: []
+  m_LegacyBlendHint: 0
+  m_ComponentOwner: {fileID: 1144653277}
+>>>>>>> Stashed changes:Assets/Scenes/Level2 Testing.unity
 --- !u!1 &329299980
 GameObject:
   m_ObjectHideFlags: 0
@@ -1546,7 +1629,7 @@ GameObject:
   - component: {fileID: 362885745}
   - component: {fileID: 362885744}
   m_Layer: 0
-  m_Name: Square
+  m_Name: FinishLine
   m_TagString: FinishLine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1864,6 +1947,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 803933059}
     m_Modifications:
+    - target: {fileID: 2476159816989112604, guid: 067afa3840bfb174d81c96f0358c53b1, type: 3}
+      propertyPath: pointsMeter
+      value: 
+      objectReference: {fileID: 1115557972}
     - target: {fileID: 2476159816989112604, guid: 067afa3840bfb174d81c96f0358c53b1, type: 3}
       propertyPath: collectionInput
       value: 
@@ -2603,6 +2690,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 803933059}
     m_Modifications:
+    - target: {fileID: 2476159816989112604, guid: 067afa3840bfb174d81c96f0358c53b1, type: 3}
+      propertyPath: pointsMeter
+      value: 
+      objectReference: {fileID: 1115557972}
     - target: {fileID: 2476159816989112604, guid: 067afa3840bfb174d81c96f0358c53b1, type: 3}
       propertyPath: collectionInput
       value: 
@@ -3539,6 +3630,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 803933059}
     m_Modifications:
     - target: {fileID: 2476159816989112604, guid: 067afa3840bfb174d81c96f0358c53b1, type: 3}
+      propertyPath: pointsMeter
+      value: 
+      objectReference: {fileID: 1115557972}
+    - target: {fileID: 2476159816989112604, guid: 067afa3840bfb174d81c96f0358c53b1, type: 3}
       propertyPath: collectionInput
       value: 
       objectReference: {fileID: 900852240}
@@ -3689,6 +3784,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 803933059}
     m_Modifications:
     - target: {fileID: 2476159816989112604, guid: 067afa3840bfb174d81c96f0358c53b1, type: 3}
+      propertyPath: pointsMeter
+      value: 
+      objectReference: {fileID: 1115557972}
+    - target: {fileID: 2476159816989112604, guid: 067afa3840bfb174d81c96f0358c53b1, type: 3}
       propertyPath: collectionInput
       value: 
       objectReference: {fileID: 900852240}
@@ -3780,8 +3879,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ca2f467357c2a647ade7b276e3da997, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 100
-  jump: 1500
+  speed: 80
+  jump: 1200
   rb: {fileID: 900852236}
   isGrounded: 1
 --- !u!114 &900852234
@@ -4354,6 +4453,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8235712252738830333, guid: 93b66039a0682d64bb57a2ea19c02027, type: 3}
   m_PrefabInstance: {fileID: 1054435372}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1115557972 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8249393808451027415, guid: ada8c39de0b74474eb6a2c738a4b10fe, type: 3}
+  m_PrefabInstance: {fileID: 213970441}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1115557974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1115557972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1da81affe4400b4f9dd5055423a1f4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cattoMeter: {fileID: 288540077}
+  enemyScript: {fileID: 1158439890}
 --- !u!1 &1132073971
 GameObject:
   m_ObjectHideFlags: 0
@@ -4493,6 +4611,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 803933059}
     m_Modifications:
     - target: {fileID: 2476159816989112604, guid: 067afa3840bfb174d81c96f0358c53b1, type: 3}
+      propertyPath: pointsMeter
+      value: 
+      objectReference: {fileID: 1115557972}
+    - target: {fileID: 2476159816989112604, guid: 067afa3840bfb174d81c96f0358c53b1, type: 3}
       propertyPath: collectionInput
       value: 
       objectReference: {fileID: 900852240}
@@ -4550,6 +4672,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8618802562148949368, guid: 067afa3840bfb174d81c96f0358c53b1, type: 3}
   m_PrefabInstance: {fileID: 1158439888}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1158439890 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2476159816989112604, guid: 067afa3840bfb174d81c96f0358c53b1, type: 3}
+  m_PrefabInstance: {fileID: 1158439888}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d21bedac31c3e2f49bf6f7761f8282f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1184642134
 GameObject:
   m_ObjectHideFlags: 0
@@ -4727,6 +4860,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 803933059}
     m_Modifications:
     - target: {fileID: 2476159816989112604, guid: 067afa3840bfb174d81c96f0358c53b1, type: 3}
+      propertyPath: pointsMeter
+      value: 
+      objectReference: {fileID: 1115557972}
+    - target: {fileID: 2476159816989112604, guid: 067afa3840bfb174d81c96f0358c53b1, type: 3}
       propertyPath: collectionInput
       value: 
       objectReference: {fileID: 900852240}
@@ -4792,6 +4929,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 803933059}
     m_Modifications:
+    - target: {fileID: 2476159816989112604, guid: 067afa3840bfb174d81c96f0358c53b1, type: 3}
+      propertyPath: pointsMeter
+      value: 
+      objectReference: {fileID: 1115557972}
     - target: {fileID: 2476159816989112604, guid: 067afa3840bfb174d81c96f0358c53b1, type: 3}
       propertyPath: collectionInput
       value: 
@@ -6556,6 +6697,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 803933059}
     m_Modifications:
     - target: {fileID: 2476159816989112604, guid: 067afa3840bfb174d81c96f0358c53b1, type: 3}
+      propertyPath: pointsMeter
+      value: 
+      objectReference: {fileID: 1115557972}
+    - target: {fileID: 2476159816989112604, guid: 067afa3840bfb174d81c96f0358c53b1, type: 3}
       propertyPath: collectionInput
       value: 
       objectReference: {fileID: 900852240}
@@ -6813,6 +6958,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 803933059}
     m_Modifications:
+    - target: {fileID: 2476159816989112604, guid: 067afa3840bfb174d81c96f0358c53b1, type: 3}
+      propertyPath: pointsMeter
+      value: 
+      objectReference: {fileID: 1115557972}
     - target: {fileID: 2476159816989112604, guid: 067afa3840bfb174d81c96f0358c53b1, type: 3}
       propertyPath: collectionInput
       value: 

@@ -37,6 +37,7 @@ public class EnemyScript : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
+            Debug.Log("ewfqf");
             pointsMeter.GetComponent<CollectionInput>().LoseFish();
 
         }
