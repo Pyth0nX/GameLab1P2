@@ -8,6 +8,7 @@ TagManager:
   - Enemy
   - Barrier
   - DeathBarrier
+  - FinishLine
   layers:
   - Default
   - TransparentFX
