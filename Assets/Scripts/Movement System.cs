@@ -28,9 +28,9 @@ public class MovementSystem : MonoBehaviour
         {
             SceneManager.LoadScene("RetryGame");
         }
-        if (collision.gameObject.CompareTag("DeathBarrier"))
+        if (collision.gameObject.CompareTag("House"))
         {
-            SceneManager.LoadScene("LevelSelector");
+            SceneManager.LoadScene("Level2");
         }
         if (collision.gameObject.CompareTag("FinishLine"))
         {

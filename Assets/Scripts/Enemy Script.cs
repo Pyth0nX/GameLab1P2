@@ -44,6 +44,10 @@ public class EnemyScript : MonoBehaviour
         {
             Destroy(collision.gameObject);
         }
+        if(collision.gameObject.tag == "DeathBarrier")
+        {
+            Destroy(collision.gameObject);
+        }
     }
 /*
     public void RotateToTarget()
