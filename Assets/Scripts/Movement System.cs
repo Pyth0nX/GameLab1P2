@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MovementSystem : MonoBehaviour
 {
@@ -21,6 +22,10 @@ public class MovementSystem : MonoBehaviour
         if (collision.gameObject.CompareTag("Ground"))
         {
             isGrounded = true;
+        }
+        if (collision.gameObject.CompareTag("DeathBarrier"))
+        {
+            SceneManager.LoadScene("RetryGame");
         }
     }
 
