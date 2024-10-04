@@ -917,7 +917,6 @@ SpriteRenderer:
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-<<<<<<< Updated upstream:Assets/Scenes/Level2.unity
   m_Modification:
     serializedVersion: 3
     m_TransformParent: {fileID: 168387197}
@@ -972,51 +971,6 @@ PrefabInstance:
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 93b66039a0682d64bb57a2ea19c02027, type: 3}
 --- !u!4 &187781246 stripped
-=======
-  m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
-  m_projectionMatrixMode: 1
-  m_GateFitMode: 2
-  m_FOVAxisMode: 0
-  m_Iso: 200
-  m_ShutterSpeed: 0.005
-  m_Aperture: 16
-  m_FocusDistance: 10
-  m_FocalLength: 50
-  m_BladeCount: 5
-  m_Curvature: {x: 2, y: 11}
-  m_BarrelClipping: 0.25
-  m_Anamorphism: 0
-  m_SensorSize: {x: 36, y: 24}
-  m_LensShift: {x: 0, y: 0}
-  m_NormalizedViewPortRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
-  near clip plane: 0.1
-  far clip plane: 5000
-  field of view: 60
-  orthographic: 1
-  orthographic size: 24
-  m_Depth: -1
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingPath: -1
-  m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 0
-  m_TargetEye: 0
-  m_HDR: 1
-  m_AllowMSAA: 0
-  m_AllowDynamicResolution: 0
-  m_ForceIntoRT: 0
-  m_OcclusionCulling: 0
-  m_StereoConvergence: 10
-  m_StereoSeparation: 0.022
---- !u!4 &297734424
->>>>>>> Stashed changes:Assets/Scenes/Level2 Testing.unity
 Transform:
   m_CorrespondingSourceObject: {fileID: 8235712252738830333, guid: 93b66039a0682d64bb57a2ea19c02027, type: 3}
   m_PrefabInstance: {fileID: 187781245}
@@ -1227,36 +1181,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9b093ac082e7fb429df92df8853f5d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< Updated upstream:Assets/Scenes/Level2.unity
-=======
-  m_ExcludedPropertiesInInspector:
-  - m_Script
-  m_LockStageInInspector: 
-  m_StreamingVersion: 20170927
-  m_Priority: 10
-  m_StandbyUpdate: 2
-  m_LookAt: {fileID: 900852238}
-  m_Follow: {fileID: 900852238}
-  m_Lens:
-    FieldOfView: 40
-    OrthographicSize: 10
-    NearClipPlane: 0.1
-    FarClipPlane: 5000
-    Dutch: 0
-    ModeOverride: 0
-    LensShift: {x: 0, y: 0}
-    GateFit: 2
-    FocusDistance: 10
-    m_SensorSize: {x: 1, y: 1}
-  m_Transitions:
-    m_BlendHint: 0
-    m_InheritPosition: 0
-    m_OnCameraLive:
-      m_PersistentCalls:
-        m_Calls: []
-  m_LegacyBlendHint: 0
-  m_ComponentOwner: {fileID: 1144653277}
->>>>>>> Stashed changes:Assets/Scenes/Level2 Testing.unity
 --- !u!1 &329299980
 GameObject:
   m_ObjectHideFlags: 0
