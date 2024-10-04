@@ -22,7 +22,7 @@ public class Hammer : MonoBehaviour
     // Upon Pressing Right Mouse Button, does it spawn the Hammer and deletes it after a second
     void Update()
     {
-        if (Input.GetMouseButtonDown(0) && canSwing == true)
+        if (Input.GetKeyDown(KeyCode.E) && canSwing == true)
         {
             StartCoroutine(SwingHammer());
         }
@@ -35,7 +35,26 @@ public class Hammer : MonoBehaviour
         //gameObject.transform.SetParent(transform, true);
         //gameObject.transform.Rotate(0f, 0f, -90f);
     }
+    /*
+    void MoveHammer()
+    {
+        rb.velocity = new Vector2(speed * move, rb.velocity.y);
+        if (Input.GetButtonDown("Jump") && hammerSpawnPosition)
+        {
+            rb.AddForce(new Vector2(rb.velocity.x, jump));
 
+            isGrounded = false;
+        }
+        if (rb.velocity.x < 0)
+        {
+            sprite.flipX = true;
+        }
+        else
+        {
+            sprite.flipX = false;
+        }
+    }
+    */
     IEnumerator SwingHammer()
     {
         canSwing = false;
@@ -48,3 +67,5 @@ public class Hammer : MonoBehaviour
         Destroy(CurrentHammer);
     }
 }
+
+

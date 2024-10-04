@@ -9,13 +9,14 @@ public class MovementSystem : MonoBehaviour
     public float jump;
     private float move;
     public Rigidbody2D rb;
+    private SpriteRenderer sprite;
 
     public bool isGrounded;
 
     // Start is called before the first frame update
     void Start()
     {
-
+        sprite = GetComponent<SpriteRenderer>();
     }
     void OnCollisionEnter2D(Collision2D collision)
     {
@@ -26,6 +27,14 @@ public class MovementSystem : MonoBehaviour
         if (collision.gameObject.CompareTag("DeathBarrier"))
         {
             SceneManager.LoadScene("RetryGame");
+        }
+        if (collision.gameObject.CompareTag("DeathBarrier"))
+        {
+            SceneManager.LoadScene("LevelSelector");
+        }
+        if (collision.gameObject.CompareTag("FinishLine"))
+        {
+            SceneManager.LoadScene("LevelSelector");
         }
     }
 
@@ -40,6 +49,14 @@ public class MovementSystem : MonoBehaviour
             rb.AddForce(new Vector2(rb.velocity.x, jump));
 
             isGrounded = false;
+        }
+        if (rb.velocity.x < 0)
+        {
+            sprite.flipX = true;
+        }
+        else
+        {
+            sprite.flipX = false;
         }
     }
 
