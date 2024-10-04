@@ -1090,7 +1090,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8249393808451027415, guid: ada8c39de0b74474eb6a2c738a4b10fe, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1115557974}
   m_SourcePrefab: {fileID: 100100000, guid: ada8c39de0b74474eb6a2c738a4b10fe, type: 3}
 --- !u!1001 &244130884
 PrefabInstance:
@@ -1100,6 +1103,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 803933059}
     m_Modifications:
+    - target: {fileID: 2476159816989112604, guid: 067afa3840bfb174d81c96f0358c53b1, type: 3}
+      propertyPath: pointsMeter
+      value: 
+      objectReference: {fileID: 1115557972}
     - target: {fileID: 2476159816989112604, guid: 067afa3840bfb174d81c96f0358c53b1, type: 3}
       propertyPath: collectionInput
       value: 
@@ -1168,7 +1175,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7310301686434399431, guid: ada8c39de0b74474eb6a2c738a4b10fe, type: 3}
   m_PrefabInstance: {fileID: 213970441}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1115557972}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f9b093ac082e7fb429df92df8853f5d5, type: 3}
@@ -1546,7 +1553,7 @@ GameObject:
   - component: {fileID: 362885745}
   - component: {fileID: 362885744}
   m_Layer: 0
-  m_Name: Square
+  m_Name: FinishLine
   m_TagString: FinishLine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1864,6 +1871,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 803933059}
     m_Modifications:
+    - target: {fileID: 2476159816989112604, guid: 067afa3840bfb174d81c96f0358c53b1, type: 3}
+      propertyPath: pointsMeter
+      value: 
+      objectReference: {fileID: 1115557972}
     - target: {fileID: 2476159816989112604, guid: 067afa3840bfb174d81c96f0358c53b1, type: 3}
       propertyPath: collectionInput
       value: 
@@ -2603,6 +2614,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 803933059}
     m_Modifications:
+    - target: {fileID: 2476159816989112604, guid: 067afa3840bfb174d81c96f0358c53b1, type: 3}
+      propertyPath: pointsMeter
+      value: 
+      objectReference: {fileID: 1115557972}
     - target: {fileID: 2476159816989112604, guid: 067afa3840bfb174d81c96f0358c53b1, type: 3}
       propertyPath: collectionInput
       value: 
@@ -3539,6 +3554,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 803933059}
     m_Modifications:
     - target: {fileID: 2476159816989112604, guid: 067afa3840bfb174d81c96f0358c53b1, type: 3}
+      propertyPath: pointsMeter
+      value: 
+      objectReference: {fileID: 1115557972}
+    - target: {fileID: 2476159816989112604, guid: 067afa3840bfb174d81c96f0358c53b1, type: 3}
       propertyPath: collectionInput
       value: 
       objectReference: {fileID: 900852240}
@@ -3689,6 +3708,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 803933059}
     m_Modifications:
     - target: {fileID: 2476159816989112604, guid: 067afa3840bfb174d81c96f0358c53b1, type: 3}
+      propertyPath: pointsMeter
+      value: 
+      objectReference: {fileID: 1115557972}
+    - target: {fileID: 2476159816989112604, guid: 067afa3840bfb174d81c96f0358c53b1, type: 3}
       propertyPath: collectionInput
       value: 
       objectReference: {fileID: 900852240}
@@ -3780,8 +3803,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ca2f467357c2a647ade7b276e3da997, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 100
-  jump: 1500
+  speed: 80
+  jump: 1200
   rb: {fileID: 900852236}
   isGrounded: 1
 --- !u!114 &900852234
@@ -4354,6 +4377,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8235712252738830333, guid: 93b66039a0682d64bb57a2ea19c02027, type: 3}
   m_PrefabInstance: {fileID: 1054435372}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1115557972 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8249393808451027415, guid: ada8c39de0b74474eb6a2c738a4b10fe, type: 3}
+  m_PrefabInstance: {fileID: 213970441}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1115557974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1115557972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1da81affe4400b4f9dd5055423a1f4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cattoMeter: {fileID: 288540077}
+  enemyScript: {fileID: 1158439890}
 --- !u!1 &1132073971
 GameObject:
   m_ObjectHideFlags: 0
@@ -4493,6 +4535,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 803933059}
     m_Modifications:
     - target: {fileID: 2476159816989112604, guid: 067afa3840bfb174d81c96f0358c53b1, type: 3}
+      propertyPath: pointsMeter
+      value: 
+      objectReference: {fileID: 1115557972}
+    - target: {fileID: 2476159816989112604, guid: 067afa3840bfb174d81c96f0358c53b1, type: 3}
       propertyPath: collectionInput
       value: 
       objectReference: {fileID: 900852240}
@@ -4550,6 +4596,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8618802562148949368, guid: 067afa3840bfb174d81c96f0358c53b1, type: 3}
   m_PrefabInstance: {fileID: 1158439888}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1158439890 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2476159816989112604, guid: 067afa3840bfb174d81c96f0358c53b1, type: 3}
+  m_PrefabInstance: {fileID: 1158439888}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d21bedac31c3e2f49bf6f7761f8282f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1184642134
 GameObject:
   m_ObjectHideFlags: 0
@@ -4727,6 +4784,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 803933059}
     m_Modifications:
     - target: {fileID: 2476159816989112604, guid: 067afa3840bfb174d81c96f0358c53b1, type: 3}
+      propertyPath: pointsMeter
+      value: 
+      objectReference: {fileID: 1115557972}
+    - target: {fileID: 2476159816989112604, guid: 067afa3840bfb174d81c96f0358c53b1, type: 3}
       propertyPath: collectionInput
       value: 
       objectReference: {fileID: 900852240}
@@ -4792,6 +4853,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 803933059}
     m_Modifications:
+    - target: {fileID: 2476159816989112604, guid: 067afa3840bfb174d81c96f0358c53b1, type: 3}
+      propertyPath: pointsMeter
+      value: 
+      objectReference: {fileID: 1115557972}
     - target: {fileID: 2476159816989112604, guid: 067afa3840bfb174d81c96f0358c53b1, type: 3}
       propertyPath: collectionInput
       value: 
@@ -6556,6 +6621,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 803933059}
     m_Modifications:
     - target: {fileID: 2476159816989112604, guid: 067afa3840bfb174d81c96f0358c53b1, type: 3}
+      propertyPath: pointsMeter
+      value: 
+      objectReference: {fileID: 1115557972}
+    - target: {fileID: 2476159816989112604, guid: 067afa3840bfb174d81c96f0358c53b1, type: 3}
       propertyPath: collectionInput
       value: 
       objectReference: {fileID: 900852240}
@@ -6813,6 +6882,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 803933059}
     m_Modifications:
+    - target: {fileID: 2476159816989112604, guid: 067afa3840bfb174d81c96f0358c53b1, type: 3}
+      propertyPath: pointsMeter
+      value: 
+      objectReference: {fileID: 1115557972}
     - target: {fileID: 2476159816989112604, guid: 067afa3840bfb174d81c96f0358c53b1, type: 3}
       propertyPath: collectionInput
       value: 
