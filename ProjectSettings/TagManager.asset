@@ -5,11 +5,13 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ground
+  - Enemy
+  - Barrier
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Barrier
   - Water
   - UI
   - Backround

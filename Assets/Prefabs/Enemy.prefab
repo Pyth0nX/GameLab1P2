@@ -382,6 +382,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cattoMeter: {fileID: 7310301686434399431, guid: ada8c39de0b74474eb6a2c738a4b10fe, type: 3}
-  collectionInput: {fileID: 0}
+  collectionInput: {fileID: 1708723362017015305, guid: ada8c39de0b74474eb6a2c738a4b10fe, type: 3}
   pointsMeter: {fileID: 8249393808451027415, guid: ada8c39de0b74474eb6a2c738a4b10fe, type: 3}
   speed: 5

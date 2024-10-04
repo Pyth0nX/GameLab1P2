@@ -40,7 +40,7 @@ public class EnemyScript : MonoBehaviour
             pointsMeter.GetComponent<CollectionInput>().LoseFish();
 
         }
-        if (collision.gameObject.tag == "Enemy")
+        if (collision.gameObject.tag == "Hammer")
         {
             Destroy(collision.gameObject);
         }
