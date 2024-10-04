@@ -16,7 +16,6 @@ public class Hammer : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        CurrentHammer = Instantiate(PrefabHammer);
         canSwing = true;
     }
 

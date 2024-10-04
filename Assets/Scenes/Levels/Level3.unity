@@ -306,6 +306,8 @@ GameObject:
   - component: {fileID: 86097614}
   - component: {fileID: 86097613}
   - component: {fileID: 86097611}
+  - component: {fileID: 86097616}
+  - component: {fileID: 86097615}
   m_Layer: 0
   m_Name: DeathPit
   m_TagString: Ground
@@ -425,6 +427,31 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &86097615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 86097610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67f9c9295c11d1145bf2ae361ba3feed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneToLoad: MainMenu
+--- !u!114 &86097616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 86097610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bb2b8b17f4f9ee4e9527a14287597de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &93151975
 GameObject:
   m_ObjectHideFlags: 0
@@ -438,7 +465,7 @@ GameObject:
   - component: {fileID: 93151978}
   m_Layer: 7
   m_Name: snowground 1 (6)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -741,7 +768,7 @@ GameObject:
   - component: {fileID: 157087960}
   m_Layer: 7
   m_Name: snowground 1 (7)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -955,7 +982,7 @@ GameObject:
   - component: {fileID: 164072379}
   m_Layer: 7
   m_Name: snowground 1 (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1296,7 +1323,7 @@ GameObject:
   - component: {fileID: 329299983}
   m_Layer: 7
   m_Name: snowground 1 (5)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1574,7 +1601,7 @@ GameObject:
   - component: {fileID: 371638831}
   m_Layer: 7
   m_Name: snowground 1 (16)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2043,7 +2070,7 @@ GameObject:
   - component: {fileID: 499687500}
   m_Layer: 7
   m_Name: snowground 1 (10)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2173,7 +2200,7 @@ GameObject:
   - component: {fileID: 571357624}
   m_Layer: 7
   m_Name: snowground 1 (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2392,7 +2419,7 @@ GameObject:
   - component: {fileID: 634085909}
   m_Layer: 7
   m_Name: snowground 1 (14)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2522,7 +2549,7 @@ GameObject:
   - component: {fileID: 646933390}
   m_Layer: 7
   m_Name: snowground 1 (17)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3607,7 +3634,7 @@ GameObject:
   - component: {fileID: 1038037631}
   m_Layer: 7
   m_Name: snowground 1 (11)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3879,7 +3906,7 @@ GameObject:
   - component: {fileID: 1132073974}
   m_Layer: 7
   m_Name: snowground 1 (12)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5325,7 +5352,7 @@ GameObject:
   - component: {fileID: 1514975675}
   m_Layer: 7
   m_Name: snowground 1 (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6085,7 +6112,7 @@ GameObject:
   - component: {fileID: 1720101838}
   m_Layer: 7
   m_Name: snowground 1 (8)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6327,7 +6354,7 @@ GameObject:
   - component: {fileID: 1797920566}
   m_Layer: 7
   m_Name: snowground 1 (15)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6758,7 +6785,7 @@ GameObject:
   - component: {fileID: 1978718992}
   m_Layer: 7
   m_Name: snowground 1 (9)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6930,7 +6957,7 @@ GameObject:
   - component: {fileID: 2027028568}
   m_Layer: 7
   m_Name: snowground 1 (13)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7120,7 +7147,7 @@ GameObject:
   - component: {fileID: 2057047896}
   m_Layer: 7
   m_Name: snowground 1 (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7533,7 +7560,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 374.11, y: -21.970612, z: 1.0092558}
-  m_LocalScale: {x: 798.74347, y: 155.4215, z: 1}
+  m_LocalScale: {x: 798.74347, y: 93.2529, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1681117619}

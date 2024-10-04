@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PCControler : MonoBehaviour
+public class MovementSystem : MonoBehaviour
 {
     public float speed;
     public float jump;
