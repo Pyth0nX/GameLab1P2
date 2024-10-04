@@ -3780,8 +3780,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ca2f467357c2a647ade7b276e3da997, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 100
-  jump: 1500
+  speed: 80
+  jump: 1200
   rb: {fileID: 900852236}
   isGrounded: 1
 --- !u!114 &900852234
@@ -5311,7 +5311,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67f9c9295c11d1145bf2ae361ba3feed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: Finish
 --- !u!61 &1420655826
 BoxCollider2D:
   m_ObjectHideFlags: 0
